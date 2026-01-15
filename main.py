@@ -52,3 +52,28 @@
 # sonlar = [-10, -5, -2, 0, 1, 3, 5, 7, 10, -8, 15, -3, 20, 0, 25]
 # ten = list(filter(lambda value: value > 0 , sonlar))
 # print(ten)
+
+# 11
+# sozlar = ["olma", "banan", "qovun", "nok", "anor", "tarvuz", "gilos", "shaftoli", "behi", "uzum", "limon", "apelsin", "mandarin"]
+# uzunlig = list(filter(lambda value:len(value) >= 5,sozlar))
+# print(uzunlig)
+
+# 12
+# sonlar = [-10, -5, -2, 0, 1, 3, 5, 7, 10, -8, 15, -3, 20, 0, 25]
+# tan = list(filter(lambda value:value % 5  == 0,sonlar))
+# print(tan)
+
+# 13
+# ismlar = ["Ali", "Bobur", "Aziza", "Dilnoza", "Anvar", "Kamola", "Akbar", "Zebo", "Alisher", "Madina", "Amir", "Sevara", "Abbos", "Nilufar", "Asror", "Gulnora", "Akmal", "Feruza"]
+# onea = list(filter(lambda value:value[0].upper() == 'A',ismlar))
+# print(onea)
+
+# 14
+# sonlar = [-10, -5, -2, 0, 1, 3, 5, 7, 10, -8, 15, -3, 20, 0, 25]
+# musbat = list(filter(lambda value:value >= 0,sonlar))
+# print(musbat)
+
+# 15
+# satrlar = ['python zor','java ham qolishmaydi','c xam juda zor','lekin python oson']
+# py = list(filter(lambda value: 'python' in value.lower(),satrlar))
+# print(py)
