@@ -22,4 +22,3 @@
 # sonlar = [ -3, -6, -7, -10]
 # musbat = map(lambda value:value - 2*(value),sonlar)
 # print(list(musbat))
-
